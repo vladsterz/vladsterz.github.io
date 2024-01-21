@@ -13,5 +13,12 @@ briefly explain some prerequisite terms.
 ## Processes and Threads
 We'll start with processes and threads and the relation between them so we can understand what a computer program requires to be able to be executed.
 ### Process
-A computer process is an entity that provides all the resources needed
-in order to execute a program. So, when we're talking about any program running on our machine, that program is a part of a process along with a virtual address space, the actual code at **least one thread of execution** (there are also some other stuff in there that ~~I hardly undestand~~ we don't care about them in this context ). So a thread (or more) is part of a process.
+A computer process is an entity that provides all the resources required
+in order to execute a program. So, when we're refering to any program running on our machine, that program is a part of a process along with a virtual address space, the executable code and **at least one thread of execution** (there are also some other stuff in there that ~~I hardly undestand~~ we don't care about in this context ).
+
+### Thread
+As I mentioned previously, threads exist in the context of a process* 
+
+
+
+(not always, there are cases threads exist in kernel level)
