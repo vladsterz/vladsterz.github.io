@@ -17,7 +17,7 @@ A computer process is an entity that provides all the resources required
 in order to execute a program. So, when we're refering to any program running on our machine, that program is a part of a process along with a virtual address space, the executable code and **at least one thread of execution** (there are also some other stuff in there that ~~I hardly undestand~~ we don't care about in this context ).
 
 ### Thread
-As I mentioned previously, threads exist in the context of a process* 
+As I mentioned previously, threads exist in the context of a process*.
 
 
 
